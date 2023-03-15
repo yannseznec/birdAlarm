@@ -15,7 +15,7 @@
 #X obj 147 493 send \$1-sound-L;
 #X obj 145 389 pack f f;
 #X obj 137 219 pack s f;
-#X obj 226 50 inlet;
+#X obj 255 48 inlet;
 #X msg 227 82 plover_short.wav;
 #X msg 457 290 \; \$1-sound-L arraydialog;
 #X msg 148 457 arraydialog \$2-sound-L \$1 3;
